@@ -19,7 +19,7 @@ ArtistTop <- function(artist){
   top <- fromJSON(getTop)
   return(top)
 }
-TopNelly <- ArtistTop('Nelly')
+TopNelly <- ArtistTop('Kevin Gates')
 View(TopNelly)
 # What are the top 10 tracks by Nelly?
 
